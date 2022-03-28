@@ -7,7 +7,8 @@ My first ever portfolio. It has an about me section, work done section, and a co
 HTML and CSS
 
 ## Screenshots
-![alt text]
+![alt text](./assets/images/screengrab.png)
+I used links to send you to the appropriate part of the website.
 
 ## Link to website 
 https://marvssvil.github.io/Portfolio/
