@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #e7dfdd;
+    font-family: 'Syne Mono', monospace;
+    background-color: #0e0b16;
+}
+
+header {
+    padding: 30px 35px;
+    background-color: #0e0b16;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    display: inline;
+    letter-spacing: 6px;
+}
+
+header h1 span {
+    color: #a239ca;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    display: inline;
+    text-decoration: #4717f6 wavy underline;
+
+}
+
+header nav {
+    float: right;
+    margin: 20px 0;
+}
+
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 100px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: #4717f6 wavy underline;
+    color: #a239ca;
+    letter-spacing: 6px;;
+}
+
+.myinfo {
+    display: flex;
+    align-items: center;
+    background-color: #0e0b16;
+    height: 500px;
+}
+
+.myinfo img {
+    border-radius: 50%;
+    height: 400px;
+    width: 500px;
+}
+
+.title {
+    height: 100px;
+    color: #4717f6;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-decoration: #a239ca wavy underline;
+}
+
+#paragraph p {
+    width: 70%;
+    display: inline-block;
+    padding: 0 0 0 450px;
+}
+
+/*work part*/
+.projects img {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px; 
+}
+
+#runny {
+    height: 500px;
+    width: 500px;
+    
+}
+
+.hireme {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 600px;
+}
+
+
+
