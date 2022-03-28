@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Maria Solis</title>
         <link rel="stylesheet" href="./assets/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,6 +65,14 @@
         <!--for contacts-->
         <section class="contact" id="contact">
             <h2 class="title">Contact Me</h2>
+            <form action="./form" id="contact-form" class="contact-form">
+                <label for="name">Full name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Full Name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="PutEmailHere@email.com"><br>
+                <textarea name="message" form="contact-form" placeholder="Enter Your Message Here"></textarea>
+                <button class="button" type="button" onclick="alert('I will get to that shortly!')">Submit</button>
+            </form>
         </section>
 
         <footer>

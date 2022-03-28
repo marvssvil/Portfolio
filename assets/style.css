@@ -100,5 +100,27 @@ header nav ul li a {
     height: 600px;
 }
 
+/*contact form*/
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    color: #a239ca;
+    background-color: #0e0b16;
+    border-radius: 50%;
+}
+
+
+
+
+
 
 
